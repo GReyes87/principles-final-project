@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://unsplash.it/30/30" class="mr-2"><a class="navbar-brand" href="#">Leading Causes of Death in the United States</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="LeadingCausesofDeath.html">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="CausesOfDeathPage.html">Leading Causes of Death in the US Data</a></li>
+               <li class="nav-item"><a class="nav-link" href="AgeAdjustedDeathRatePage.html">Data Related to Age Adjusted Death Rates</a></li>
+               <li class="nav-item"><a class="nav-link" href="conclusion.html">Conclusion</a></li>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <h1>What is the Relationship Between Year,Age-Adjusted Rates, and Deaths</h1>
+         <embed src="threedimension.html" type="text/html" height = "600" width = "1000">
+         <p>Looking at a 3D scatter plot can help us understand a few simple things about how age-adjusted rates and deaths change over time. First, we can see if rates and deaths went up, down, or stayed about the same across different years. Second, we can see if there's any connection between age-adjusted rates and deaths. Third, we can see how spread out the data is, which can tell us if there are any years that stand out as different such as cancer and heart disease. Fourth, by looking at the plot from different angles, we can get a better idea of how everything relates to each other. Lastly, we can see how suicide has the least amount of deaths and has a smaller age adjusted death rate compared to the other causes.</p>
+         <div class='py-3 my-4'></div>
+         <h2>What is the Average Age-Adjusted Death Rates by Each State</h2>
+         <embed src="BarPlotByState.html" type="text/html" height = "600" width = "1000">
+         <div class='my-5'></div>
+         <p>Looking at a bar graph that shows the average age-adjusted death rates for each state can help us understand some simple things. First, we can see which states have the highest average, which was Mississippi. Secondly, we can tell which state had the lowest average death rates, which was Hawaii. Third, each state has its own bar, so it's easy to see how they compare to each other, for example, Virginia and Montana have a similar average to one another. Fourth, we can spot any big differences between states in terms of their average death rates, which might indicate where there are more health problems or where people tend to live longer. Lastly, looking at the whole graph helps us understand which states might need more help with healthcare or other things that affect how long people live. This can guide efforts to improve health and reduce deaths in different parts of the country.
+            </p>
+         <div class='my-5'></div>
+         <h3>What is the Average Age Adjusted Death Rate by Cause</h3>
+         <embed src="AverageDeathRateByCause.html" type="text/html" height = "600" width = "1000">
+         <div class='my-5'></div>
+         <p>Looking at a bar graph that shows the average age-adjusted death rates for each cause can allow us to understand the data. First, we can see that the average age adjusted death rate is higher in heart disease. Secondly, we can see that suicide has the lowest average age adjusted death rate. Third, comparing the heights of bars helps us see which reasons are more serious or common. Fourth, we can see if there are big differences between reasons, like people with diabetes die more compared to someone who suffered from a kidney disease. Lastly, looking at the plot you can see how people who suffered from a stroke die more than those who suffered unintentional injuries as well.</p>
+         <div class='my-5'></div>
+         <div class='py-3 my-4'></div>
+         <h4>What is the Average Age-adjusted Death Rate by Cause Each Year </h4>
+         <embed src="lineplotage.html" type="text/html" height = "600" width = "1000">
+         <div class='my-5'></div>
+         <p>Looking at a line plot that shows the average age-adjusted death rate by cause each year from 1999 to 2017 can help us understand some straightforward things. First, each line represents a different cause of death, making it easy to see how the rates change over time. Second, we can track whether the rates for each cause go up, down, or stay the same across the years. Third, looking at where the lines go higher or lower helps us understand which causes are becoming more or less common over time. Fourth, any big changes or patterns in the lines can give us clues about what might be causing shifts in mortality rates for different causes. Lastly, seeing the whole plot helps us understand which causes of death are the most important to focus on for improving public health and saving lives over the years.</p>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>
